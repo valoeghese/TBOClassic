@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tbo",
+  "version": "1.0.0",
+  
+  "name": "TBO Classic",
+  "description": "Adds the biomes from TheBiomeOverhaul using the vanilla world generator!",
+  "authors": [
+    "Valoeghese"
+  ],
+  
+  "license": "LGPLv3",
+  
+  "environment": "*",
+  
+  "entrypoints": {
+    "main": [
+      "tk.valoeghese.tboclassic.TBOClassic"
+    ]
+  },
+  
+  "requires": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  
+  "mixins": [
+    "tbo.mixins.json"
+  ]
+}

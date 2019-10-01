@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "tk.valoeghese.tboclassic.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CoastMixin",
+    "FixIncorrectMushroomFieldsMixin",
+    "LargeEdgeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
